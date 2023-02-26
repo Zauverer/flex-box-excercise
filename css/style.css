@@ -1,0 +1,16 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+.block{
+    background-color: purple;
+    width: 200px;
+}
+/*en elemntos en línea no funcionada 
+dar dimensiones como width an heigh*/
+
+.inline{
+    background-color: lightcoral;
+    
+}
