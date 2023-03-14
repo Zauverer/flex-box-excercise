@@ -1,16 +1,18 @@
-body{
-    background-color: #333;
-    color: #fff;
+*,*::after,*::before{
+    box-sizing: border-box;
 }
 
-.block{
-    background-color: purple;
-    width: 200px;
-}
-/*en elemntos en línea no funcionada 
-dar dimensiones como width an heigh*/
+.container{
+    background-color: grey;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-.inline{
-    background-color: lightcoral;
-    
+}
+
+.item{
+    background-color: cornflowerblue;
+    width: 20%;
+    border: thin solid lightblue;
 }
