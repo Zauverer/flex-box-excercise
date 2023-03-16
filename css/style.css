@@ -2,17 +2,23 @@
     box-sizing: border-box;
 }
 
-.container{
-    background-color: grey;
-    height: 30vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-
-.item{
-    background-color: cornflowerblue;
-    width: 20%;
-    border: thin solid lightblue;
-}
+ .container{
+            background-color: lightblue;
+            height: 30vh;
+            
+            display: flex;
+            flex-direction: row-reverse; /* determina cual es el eje principal o main axis */
+            flex-wrap: wrap-reverse;
+            flex-flow: row wrap;
+            justify-content: flex-start; /* dedine la alineación de los elemntos hijo, respecto del eje principal */
+            /* alingn contet, n vs align items 
+            
+            */
+            align-items: center;
+        }
+        .item  {
+            border: medium solid #999;
+            width: 20%;
+            height: 20%;
+            background-color: green;
+        }
